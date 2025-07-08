@@ -22,7 +22,7 @@ def send_timestamp(myTimer: func.TimerRequest) -> None:
         timestamp = now.strftime("%Y%m%d%H%M%S")
         logging.info(f"Generated timestamp: {timestamp}")
 
-        url = "https://webhook.site/27db4270-e7cf-4d82-962a-6bd6308dd3c9"  # <-- coloca aqui o URL real
+        url = "https://webhook.site/27db4270-e7cf-4d82-962a-6bd6308dd3c9"
         payload = {"timestamp": timestamp}
 
         try:

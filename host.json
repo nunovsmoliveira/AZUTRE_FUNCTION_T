@@ -7,6 +7,6 @@
   "python": {
     "workerPath": "",
     "function_app_directory": ".",
-    "entryPoint": "function_app"  // <-- ISTO É MUITO IMPORTANTE!
+    "entryPoint": "function_app" 
   }
 }
